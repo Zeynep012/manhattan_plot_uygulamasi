@@ -1,3 +1,5 @@
+#Developed by Zeynep Demirtaş
+
 from yukleme_arayuz import Ui_MainWindow as YuklemeArayuz
 from PyQt5.QtWidgets import QMainWindow,QApplication,QFileDialog
 from PyQt5 import QtWidgets
