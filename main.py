@@ -6,7 +6,6 @@ from PyQt5 import QtWidgets
 from openpyxl import load_workbook
 import sys
 import grafik as grf
-import time
 
 class YuklemePenceresi(QMainWindow, YuklemeArayuz):
     def __init__(self):
