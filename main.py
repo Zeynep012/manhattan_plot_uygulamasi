@@ -85,6 +85,7 @@ class YuklemePenceresi(QMainWindow, YuklemeArayuz):
             grf.esik_deger_tarama(girilen_esik_deger)
             self.uyari_kutusu.setText("Manhattan Plot çizildi.")
             self.yukleniyor(100)
+            self.close()
         except Exception as hata :
             self.uyari_kutusu.setText(hata)
                      
